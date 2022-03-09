@@ -5,11 +5,11 @@ paginate = 10
 paginatePath = '.'
 
 [params]
-    title = "Moments Demo"
+    title = "Edward Kerman 的随笔"
     signature = "Chemistry fucks me everyday!"
     cover = ""
 
-    name = "Default User"
+    name = "Edward Kerman"
     avatar = "/img/default_avatar.png"
 
 [module]

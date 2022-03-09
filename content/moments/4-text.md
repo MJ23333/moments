@@ -1,8 +1,8 @@
 ---
 top: 4
 # 名称
-name: Default User
-avatar: https://farseash.github.io/demo-hugo-theme-moments/img/default_avatar.png
+name: 
+avatar: 
 
 # 发布时间
 date: 2021-08-01T11:33:28+08:00

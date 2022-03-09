@@ -4,11 +4,11 @@
 	/* font-weight:normal; */
   src: url("fonts/FZFWZhuZiHeiR.TTF"); 
 }
-/* @font-face { 
+@font-face { 
   font-family: "cn";
 	font-weight:bold;
   src: url("fonts/FZFWZhuZLSHTJWB.TTF"); 
-} */
+}
 
 body{
     background-color: #f5f5f5;
