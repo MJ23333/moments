@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = ""
 languageCode = "zh-Hans"
 theme = "moments"
 paginate = 10
