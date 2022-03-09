@@ -1,0 +1,18 @@
+[module]
+  [module.hugoVersion]
+    min = "0.64.1"
+    extended = false
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.imports]]
+    path = "twemoji"
+    [[module.imports.mounts]]
+      source = "assets/72x72"
+      target = "static/twemoji/png"
+    [[module.imports.mounts]]
+      source = "assets/svg"
+      target = "static/twemoji/svg"

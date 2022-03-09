@@ -1,3 +1,17 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://farseash.github.io/demo-hugo-theme-moments/"
+languageCode = "zh-Hans"
+theme = "moments"
+paginate = 10
+paginatePath = '.'
+
+[params]
+    title = "Moments Demo"
+    signature = "Chemistry fucks me everyday!"
+    cover = ""
+
+    name = "Default User"
+    avatar = "/img/default_avatar.png"
+
+[module]
+[[module.imports]]
+  path = "hugo-mod-twemoji"
