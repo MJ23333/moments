@@ -2,115 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Moments on </title>
-    <link>https://farseash.github.io/demo-hugo-theme-moments/moments/</link>
+    <link>/moments/</link>
     <description>Recent content in Moments on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Wed, 09 Mar 2022 14:12:11 +0800</lastBuildDate>
     
-	<atom:link href="https://farseash.github.io/demo-hugo-theme-moments/moments/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/moments/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://farseash.github.io/demo-hugo-theme-moments/moments/firstpost/</link>
+      <link>/moments/firstpost/</link>
       <pubDate>Wed, 09 Mar 2022 14:12:11 +0800</pubDate>
       
-      <guid>https://farseash.github.io/demo-hugo-theme-moments/moments/firstpost/</guid>
+      <guid>/moments/firstpost/</guid>
       <description>asdf，好厉害，测试所有东东🤔
 $$ \l{\f{U}{V}}_{p,T} $$</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://farseash.github.io/demo-hugo-theme-moments/moments/feature-fancy-box/</link>
+      <link>/moments/feature-fancy-box/</link>
       <pubDate>Sun, 24 Oct 2021 12:09:28 +0800</pubDate>
       
-      <guid>https://farseash.github.io/demo-hugo-theme-moments/moments/feature-fancy-box/</guid>
+      <guid>/moments/feature-fancy-box/</guid>
       <description>现在，Moments支持Fancybox，以支持更好的图片浏览体验，轻点任意图片试试吧！</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://farseash.github.io/demo-hugo-theme-moments/moments/feature-zhihu/</link>
+      <link>/moments/feature-zhihu/</link>
       <pubDate>Sat, 28 Aug 2021 17:09:28 +0800</pubDate>
       
-      <guid>https://farseash.github.io/demo-hugo-theme-moments/moments/feature-zhihu/</guid>
+      <guid>/moments/feature-zhihu/</guid>
       <description>新的功能：现在分享链接图标支持知乎平台！包括知乎问答以及知乎专栏文章。</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://farseash.github.io/demo-hugo-theme-moments/moments/feature-top_post/</link>
+      <link>/moments/feature-top_post/</link>
       <pubDate>Wed, 11 Aug 2021 12:46:17 +0800</pubDate>
       
-      <guid>https://farseash.github.io/demo-hugo-theme-moments/moments/feature-top_post/</guid>
+      <guid>/moments/feature-top_post/</guid>
       <description>现在Moment支持置顶功能了！只需设置每篇post的top值即可置顶Moment，置顶的Moment会有右上角书签标记。</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://farseash.github.io/demo-hugo-theme-moments/moments/feature-github-link/</link>
+      <link>/moments/feature-github-link/</link>
       <pubDate>Fri, 06 Aug 2021 15:33:28 +0800</pubDate>
       
-      <guid>https://farseash.github.io/demo-hugo-theme-moments/moments/feature-github-link/</guid>
+      <guid>/moments/feature-github-link/</guid>
       <description>GitHub是通过Git进行版本控制的软件源代码托管服务平台，由GitHub公司（曾称Logical Awesome）的开发者Chris Wanstrath、P. J. Hyett和汤姆·普雷斯顿·沃纳使用Ruby on Rails编写而成。（引用自Wikipedia）</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://farseash.github.io/demo-hugo-theme-moments/moments/feature-bilibili-link/</link>
+      <link>/moments/feature-bilibili-link/</link>
       <pubDate>Fri, 06 Aug 2021 14:33:28 +0800</pubDate>
       
-      <guid>https://farseash.github.io/demo-hugo-theme-moments/moments/feature-bilibili-link/</guid>
+      <guid>/moments/feature-bilibili-link/</guid>
       <description>新的功能：可以根据url生成相关的图标。</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://farseash.github.io/demo-hugo-theme-moments/moments/feature-wechat-article/</link>
+      <link>/moments/feature-wechat-article/</link>
       <pubDate>Fri, 06 Aug 2021 14:33:28 +0800</pubDate>
       
-      <guid>https://farseash.github.io/demo-hugo-theme-moments/moments/feature-wechat-article/</guid>
+      <guid>/moments/feature-wechat-article/</guid>
       <description>新的功能：可以根据url生成相关的图标。</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://farseash.github.io/demo-hugo-theme-moments/moments/1-single_pic/</link>
+      <link>/moments/1-single_pic/</link>
       <pubDate>Wed, 04 Aug 2021 23:57:46 +0800</pubDate>
       
-      <guid>https://farseash.github.io/demo-hugo-theme-moments/moments/1-single_pic/</guid>
+      <guid>/moments/1-single_pic/</guid>
       <description>你可以为每条moment附带图片。
 比如说，好看的风景：</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://farseash.github.io/demo-hugo-theme-moments/moments/2-pic_set/</link>
+      <link>/moments/2-pic_set/</link>
       <pubDate>Wed, 04 Aug 2021 11:57:49 +0800</pubDate>
       
-      <guid>https://farseash.github.io/demo-hugo-theme-moments/moments/2-pic_set/</guid>
+      <guid>/moments/2-pic_set/</guid>
       <description>你也可以为每条moment附带更多的图片，做成图片集。
 比如最近打卡的美食们：</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://farseash.github.io/demo-hugo-theme-moments/moments/3-link/</link>
+      <link>/moments/3-link/</link>
       <pubDate>Tue, 03 Aug 2021 11:57:40 +0800</pubDate>
       
-      <guid>https://farseash.github.io/demo-hugo-theme-moments/moments/3-link/</guid>
+      <guid>/moments/3-link/</guid>
       <description>你也可以像这样附带网络链接。
 GitHub是通过Git进行版本控制的软件源代码托管服务平台，由GitHub公司（曾称Logical Awesome）的开发者Chris Wanstrath、P. J. Hyett和汤姆·普雷斯顿·沃纳使用Ruby on Rails编写而成。（引用自Wikipedia）</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://farseash.github.io/demo-hugo-theme-moments/moments/4-text/</link>
+      <link>/moments/4-text/</link>
       <pubDate>Sun, 01 Aug 2021 11:33:28 +0800</pubDate>
       
-      <guid>https://farseash.github.io/demo-hugo-theme-moments/moments/4-text/</guid>
+      <guid>/moments/4-text/</guid>
       <description>当然，你也可以什么都不附带，只发送纯文字moment。
 $asdf$</description>
     </item>
