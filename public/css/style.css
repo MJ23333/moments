@@ -9,6 +9,31 @@
 	font-weight:bold;
   src: url("fonts/FZFWZhuZLSHTJWB.TTF"); 
 }
+@font-face {
+	font-family: 'Optima';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Optima'), url('OPTIMA.ttf') format('ttf');
+}
+@font-face {
+	font-family: 'Optima';
+	font-style: italic;
+	font-weight: 5;
+	src: local('Optima'), url('Optima_Italic.ttf') format('ttf');
+}
+@font-face {
+	font-family: 'Optima';
+	font-style: normal;
+	font-weight: 550;
+	src: local('Optima'), url('Optima Medium.ttf') format('ttf');
+}
+@font-face {
+	font-family: 'Optima';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Optima'), url('OPTIMA_B.ttf') format('ttf');
+}
+
 
 body{
     background-color: #ffffff;
