@@ -1,3 +1,0 @@
-{{ $twemoji := resources.Get "js/twemoji.min.js" }}
-<script src="{{ $twemoji.Permalink }}"></script>
-<script>twemoji.parse(document.body,{{ dict "base" ("twemoji/" | absURL) "folder" "svg" "ext" ".svg" | jsonify | safeJS }})</script>
