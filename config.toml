@@ -12,6 +12,3 @@ paginatePath = '.'
     name = "Edward Kerman"
     avatar = "/img/default_avatar.png"
 
-[module]
-[[module.imports]]
-  path = "hugo-mod-twemoji"
