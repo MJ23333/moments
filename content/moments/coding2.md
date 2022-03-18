@@ -9,7 +9,7 @@ name:
 avatar:
 
 # 发布时间
-date: {{ .Date }}
+date: 2022-03-14T11:33:23+08:00
 
 # 给Moment添加标签
 tags:
@@ -20,7 +20,7 @@ tags:
 
 # 附加信息类型1:单个图片
 pictures:
- -
+-
 
 # 附加信息类型2:网页链接
 # link：必填，网页链接；
@@ -33,3 +33,19 @@ link_logo:
 # 备注信息
 note:
 ---
+
+我首先用了以下方法：
+
+```objc
+NSWindow *cocoa_window = (NSWindow*)window.getSystemHandle() ;
+GLint opaque = 0;
+[cocoa_window setStyleMask:NSWindowStyleMaskBorderless];
+[cocoa_window setLevel: NSFloatingWindowLevel];
+[[[cocoa_window contentView] openGLContext] setValues:&opaque forParameter:NSOpenGLContextParameterSurfaceOpacity];
+[cocoa_window setBackgroundColor:[NSColor clearColor]];
+[cocoa_window setOpaque:NO];
+```
+
+鼠标不能穿过透明部分，读 Apple 的文档试了 1h 后没有任何改变。不得不跑到 Stack Overflow 问出了人生中第一个问题。
+
+根据我的经验，应该没有人会回答，😞。

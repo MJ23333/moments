@@ -6,7 +6,56 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Fri, 11 Mar 2022 14:35:51 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Mar 2022 11:10:08 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/moments/endfield1/</link>
+      <pubDate>Fri, 18 Mar 2022 11:10:08 +0800</pubDate>
+      
+      <guid>/moments/endfield1/</guid>
+      <description> 看了pv：woc，RTS1？有勇气，yj——NB！(p≧w≦q) 看了实机：一个没有战斗的实机2？开放世界？动作？这不画饼么？🤔3 看了官方介绍：即时战略RPG？4
+ 以下是官网爬到的关键字（节选）：
+明日方舟终末地,鹰角,角色扮演,免费下载,Unity,免费游玩,内购 注意原来是有即时战略的，但怕泄露就在发PV前删了。
+关于即时战略RPG，它和RTS还是很不一样的，类似RA或AoE的大场面就别想了（克洛丝军团？）。我感觉应该和TRPG（日本那边叫 simulation RPG）差不多5，参考比较老的火纹、皇骑还有比较新的三角战略（我的回忆咋全是像素游戏？）。但实机的自由视角，可控制角色这些就不好说了。
+其实吧，还有一种可能，就是yj想做RPG（甚至是4X原则的SLG6），想搞PV里的大场面——同时卖角色，于是让你可以单独控制角色搞探索。不过目前WIP的主菜单找不到什么能支持这个想法的证据。
+至于游戏整体的架构，从菜单来看（图标看成Dropbox还有救吗？），应该是外出探索资源——类似于皇室战争和辐射避难所（感觉是副本制？）。
+联机方面，我认为还是单机为主，希望能增加好友的互动吧，不要只是互相借干员或者在基建整活。
+不奶了不奶了，看yj的操作了。
+PS：宣传图里的好像凯尔希啊（画师换成了小日子？）——甚至是露肩装。
+  当时我还在想RTS怎么卖人设&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+ 优化任务繁重，试看未来画质和实机演示相差几个数量级（赛马娘除外）——不过原生PC支持好耶！&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+ 话说云母、yj的新作咋全是3D？&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+ 泪目！守住了，初心部分守住了啊！&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+ 少前2的战棋也算一种sRPG？&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+ 那可是真是带 制 作&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/moments/coding2/</link>
+      <pubDate>Mon, 14 Mar 2022 11:33:23 +0800</pubDate>
+      
+      <guid>/moments/coding2/</guid>
+      <description>我首先用了以下方法：
+NSWindow *cocoa_window = (NSWindow*)window.getSystemHandle() ; GLint opaque = 0; [cocoa_window setStyleMask:NSWindowStyleMaskBorderless]; [cocoa_window setLevel: NSFloatingWindowLevel]; [[[cocoa_window contentView] openGLContext] setValues:&amp;amp;opaque forParameter:NSOpenGLContextParameterSurfaceOpacity]; [cocoa_window setBackgroundColor:[NSColor clearColor]]; [cocoa_window setOpaque:NO]; 鼠标不能穿过透明部分，读 Apple 的文档试了 1h 后没有任何改变。不得不跑到 Stack Overflow 问出了人生中第一个问题。
+根据我的经验，应该没有人会回答，😞。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/moments/coding1/</link>
+      <pubDate>Sun, 13 Mar 2022 14:10:39 +0800</pubDate>
+      
+      <guid>/moments/coding1/</guid>
+      <description>在 MusicFox 中加入快进功能时，使用了以下代码：
+func (p *Player) Speedup() { speaker.Lock() pos := p.seeker.Position() pos += p.SampleRate.N(10 * time.Second) err := p.seeker.Seek(pos) if err == nil { p.timechange += 10 * time.Second } speaker.Unlock() } 但每次都会Seek失败，Debug 发现是获得的p.seeker.len()=0，查看 beep 库代码也没有结果，直到追溯回 beep 引用的 go-mp3 ，发现获取时长需要 io.Seek()1，显然，读取request的byte reader没办法完成
+if _, ok := d.source.reader.(io.Seeker); !ok { return nil } 我们不得不先把文件下载下来再用File读取（笨2）。
+  源代码见此&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+ 这个应该可以学习，但我太懒了┓( ´∀` )┏&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+   </description>
+    </item>
+    
     <item>
       <title></title>
       <link>/moments/fg2/</link>
