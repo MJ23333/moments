@@ -25,7 +25,7 @@ pictures:
 # link：必填，网页链接；
 # link_text：必填，链接显示的文字；
 # link_logo：选填，网页logo，现在支持部分网站自动找到对应图标，无需自己添加图标
-link: www.christophertin.com
+link: https://www.christophertin.com/
 link_text: Christopher Tin
 link_logo:
 
