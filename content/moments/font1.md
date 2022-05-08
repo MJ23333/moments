@@ -9,7 +9,7 @@ name:
 avatar:
 
 # 发布时间
-date: 2022-05-06T11:11:23+08:00
+date: 2022-03-12T13:14:21+08:00
 
 # 给Moment添加标签
 tags:
@@ -19,14 +19,18 @@ tags:
 # 附加信息（选填1项或者不填写）
 # 附加信息类型1:单个图片
 pictures:
- - 
+ - https://tva1.sinaimg.cn/large/e6c9d24ely1h217mnptiaj20vw06kweu.jpg
+ - https://tva1.sinaimg.cn/large/e6c9d24ely1h217n2xbhhj20co0aea9w.jpg
+ - https://tva1.sinaimg.cn/large/e6c9d24ely1h217nniy38j20ae0a6t8p.jpg
+ - https://tva1.sinaimg.cn/large/e6c9d24ely1h217o14qpfj20ak0aq3yk.jpg
+ - https://tva1.sinaimg.cn/large/e6c9d24ely1h217p84j6fj206q014dfn.jpg
 
 # 附加信息类型2:网页链接
 # link：必填，网页链接；
 # link_text：必填，链接显示的文字；
 # link_logo：选填，网页logo，现在支持部分网站自动找到对应图标，无需自己添加图标
-link:
-link_text:
+link: 
+link_text: 
 link_logo:
 
 # 备注信息
@@ -35,7 +39,6 @@ note:
 
 <!-- 下面开始写正文 -->
 
-重新回看了一遍内恰[^1]的个人剧情，找到不少共感之处[^2]，不是谁都像铁奥一样是天才儿童，平凡配角（吗？）的奋斗也会令人热血沸腾啊。
+突发奇想，为什么没有一款将罗马字体特点用于中文的“罗马”黑体，比如OptimaCN、TrajanCN？我肝不完，只做一个DEMO[^1]：
 
-[^1]:不得不说，内恰真是完美女友类型
-[^2]:我最近好像也与3有缘啊
+[^1]:美其名曰：概念字体

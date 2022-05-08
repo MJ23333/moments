@@ -45,7 +45,7 @@
       
       <guid>/moments/uma1/</guid>
       <description>重新回看了一遍内恰1的个人剧情，找到不少共感之处2，不是谁都像铁奥一样是天才儿童，平凡配角（吗？）的奋斗也会令人热血沸腾啊。
-  不得不说，内恰和德狗一样长在我的XP上&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+  不得不说，内恰真是完美女友类型&amp;#160;&amp;#x21a9;&amp;#xfe0e;
  我最近好像也与3有缘啊&amp;#160;&amp;#x21a9;&amp;#xfe0e;
    </description>
     </item>
@@ -135,6 +135,17 @@ func (p *Player) Speedup() { speaker.Lock() pos := p.seeker.Position() pos += p.
 if _, ok := d.source.reader.(io.Seeker); !ok { return nil } 我们不得不先把文件下载下来再用File读取（笨2）。
   源代码见此&amp;#160;&amp;#x21a9;&amp;#xfe0e;
  这个应该可以学习，但我太懒了┓( ´∀` )┏&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/moments/font1/</link>
+      <pubDate>Sat, 12 Mar 2022 13:14:21 +0800</pubDate>
+      
+      <guid>/moments/font1/</guid>
+      <description>突发奇想，为什么没有一款将罗马字体特点用于中文的“罗马”黑体，比如OptimaCN、TrajanCN？我肝不完，只做一个DEMO1：
+  美其名曰：概念字体&amp;#160;&amp;#x21a9;&amp;#xfe0e;
    </description>
     </item>
     
@@ -252,7 +263,7 @@ if _, ok := d.source.reader.(io.Seeker); !ok { return nil } 我们不得不先�
       <pubDate>Sat, 28 Aug 2021 14:04:44 +0800</pubDate>
       
       <guid>/moments/ark0/</guid>
-      <description>其实吧，这次夏活的节奏主要原因，对我来说是把陈草草异格了1。陈sir是舟游中出德克萨斯外第二戳我的角色，我不是很能接受她放弃史诗武器换把水枪实力直接飙升幻神级别这种搞笑设定2。同时，意料之外的限定眼中打乱非重氪玩家的攒抽节奏，生草的立绘3成为压倒大家的最后一根稻草。
+      <description>其实吧，这次夏活的节奏主要原因，对我来说是把陈草草异格了1。陈sir是舟游中除德克萨斯外第二戳我的角色，我不是很能接受她放弃史诗武器换把水枪实力直接飙升幻神级别这种搞笑设定2。同时，意料之外的限定眼中打乱非重氪玩家的攒抽节奏，生草的立绘3成为压倒大家的最后一根稻草。
   强是很强，我敢肯定是危机合约指定群攻&amp;#160;&amp;#x21a9;&amp;#xfe0e;
  我是希望YJ加强陈sir的，但这个加强反而是对原干员强度的嘲讽&amp;#160;&amp;#x21a9;&amp;#xfe0e;
  平心而论，唯的画功是很强的，特别是色彩的搭配，可惜他画画越来越草率，好不容易换个姿势顶胯的水陈又崩坏了。（于是唯变成了大多数被立绘吸引的玩家口诛笔伐的对象）&amp;#160;&amp;#x21a9;&amp;#xfe0e;
