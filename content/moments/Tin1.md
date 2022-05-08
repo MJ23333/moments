@@ -35,9 +35,7 @@ note:
 
 <!-- 下面开始写正文 -->
 
-田志仁（Christopher Tin）TQL。
-
-以前只听过他的Sogno di Volare和Baba Yetu，没想到他的每首合唱都很绝，马上20刀支持他正在制作的新专。
+田志仁（Christopher Tin），以前只听过他的Sogno di Volare和Baba Yetu，没想到他的每首合唱都很绝（直接跃升个人心目中现代作曲家Top3[^1]），马上20刀支持他正在制作的新专。
 
 三个专辑各选一个：
 
@@ -46,3 +44,5 @@ note:
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28530969&auto=0&height=66"></iframe>
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1472790870&auto=0&height=66"></iframe>
+
+[^1]:另外俩是寂寞和威廉姆斯
