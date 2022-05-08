@@ -37,16 +37,16 @@ note:
 
 再翻两首：
 
-<center>
+<center style='line-height:2em!important;font-family:STSong,serif!important;'>
 绿树的浓荫下放一卷诗章，<br>
 一壶美酒，和一点食粮——<br>
 有你在这荒原上傍我歌唱——<br>
 此时荒原便是天堂。<br>
-
+<br><br>
 有人希图现世的荣耀；<br>
 有人盼望明日的天堂，<br>
 取下这现钱，别管那契券——<br>
-远处鞺鞑的鼓声别放在心上！
+远处鞺鞑的鼓声别放心上！<br>
 </center>
 
 以后有时间一定为此做首曲子。
