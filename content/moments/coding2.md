@@ -34,7 +34,7 @@ link_logo:
 note:
 ---
 
-我首先用了以下方法：
+制作德狗桌宠的时候需要在Mac上得到一个透明窗口，MJ首先用了以下方法：
 
 ```objc
 NSWindow *cocoa_window = (NSWindow*)window.getSystemHandle() ;
@@ -46,6 +46,12 @@ GLint opaque = 0;
 [cocoa_window setOpaque:NO];
 ```
 
-鼠标不能穿过透明部分，读 Apple 的文档试了 1h 后没有任何改变。不得不跑到 Stack Overflow 问出了人生中第一个问题。
+但鼠标不能穿过透明部分，读 Apple 的文档试了 1h 后没有任何改善。不得不跑到 Stack Overflow 问出了人生中第一个问题。
 
 根据我的经验，应该没有人会回答，😞。
+
+---
+
+补充：果然没人回答（然而在 Chemistry StacOverflow 上的问题被秒回了，还得到了极好的文献）
+
+最后的方法是直接放弃让WindowManager处理所有鼠标事件，让 SFML 检测鼠标按下的位置后人工判定是否戳中德狗（笨）。

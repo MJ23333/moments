@@ -52,11 +52,20 @@
     
     <item>
       <title></title>
-      <link>/moments/ark1/</link>
+      <link>/moments/ark2/</link>
       <pubDate>Sun, 01 May 2022 16:00:08 +0800</pubDate>
       
-      <guid>/moments/ark1/</guid>
+      <guid>/moments/ark2/</guid>
       <description>鲨鲨我来辣！</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/moments/ark1/</link>
+      <pubDate>Thu, 28 Apr 2022 21:03:33 +0800</pubDate>
+      
+      <guid>/moments/ark1/</guid>
+      <description>我丢，在需要狂卷的时候角产能咋突然提高这么多？这就是传说中的公开招募吗？</description>
     </item>
     
     <item>
@@ -96,34 +105,10 @@
       <pubDate>Fri, 18 Mar 2022 11:10:08 +0800</pubDate>
       
       <guid>/moments/endfield1/</guid>
-      <description> 看了pv：woc，好家伙，一股卡拉克沙漠的味道，RTS1？有勇气，yj——NB！(p≧w≦q)
-看了实机：一个没有战斗的实机2？开放世界？动作？这不画饼么？🤔3
-看了官方介绍：即时战略RPG？4
- 以下是官网爬到的关键字（节选）：
-明日方舟终末地,鹰角,角色扮演,免费下载,Unity,免费游玩,内购 注意原来是有即时战略的，但怕泄露就在发PV前删了。
-关于游戏整体的玩法，从菜单来看（编队图标看成Dropbox还有救吗？），应该是基建（所谓的自动化集成工业系统） + 探索（喜闻乐见的战斗）——类似于皇室战争和辐射避难所（感觉是副本制？那代理指挥一定得留着啊）。罗德岛的标志的棋子暗示塔防，那终末地工业的螺丝就可能暗示搞基建是很重要的玩法（模拟经营占比挺大），且是独立于战斗的（和RTS在对局中建造不同）。我推测终末地应该不是开放世界，而是箱庭式探索。从官网图看应该是玩家自选主角性别（旅行者），不过“管理员（Endministrator）”这个名字总感觉不如博士上头。
-战斗部分：
-即时战略RPG，我认为它和RTS还是很不一样的，类似RA或AoE的大场面就别想了（克洛丝军团？）。我感觉应该和TRPG（日本那边叫 simulation RPG）差不多5，参考比较老的火纹、皇骑还有比较新的三角战略（我的像素回忆）。但实机的自由视角，可控制角色这些就不好说了。
-还有一种可能，就是yj想做RTS（也有可能是4X原则的SLG6），想搞PV里的大场面——同时卖角色，于是让你可以单独控制角色搞小队探索。、
-其实吧，我更倾向的是这个实机是来搞笑的，可能就是个临时建模的Demo，只是带你Walk Around，同时秀一下渲染，比如相机运动一看就是临时的、场景的模应该也是赶工建的。与实际玩法没啥关系，不然为什么连战斗都没有？从实机也能看出项目进度距离测试还有很长的路要走。
-联机方面，我认为还是单机为主，毕竟作为养成类游戏，不同练度、氪度的玩家PVP的体验应该不会太好，联机PVE倒还有可能（参看好友右边的一个小按钮，从图标推测应该和多人有关）。
-说完最搞不懂的策划环节，接着说说游戏技术：
-引擎还是很保守地选择了U3D，画面就全看TA和美术的水平了：你既可以得到稀饭一样的垃圾手游画质，也可以得到崩崩崩一样全球顶尖的卡通渲染（或者官方的死亡之书）。但在我的印象中中国研究卡通渲染比较深的貌似只有米哈游，其他的大多没咋动渲染管线，风格化的程度也不及上面俩（比如来自星辰和少前二7）。
-这次实机光影不错但建模比较拉，但毕竟是赶工 + （极大概率上）神机高画质录制，不好评判。希望比来自星辰好吧。不过，sRPG或者RTS的话对人物要求应该没那么高[&amp;amp;9]，从实机表现来看，只要以后画质缩水不太严重（不要向性能妥协！画质万岁！），效果应该还不错。
-UI方面，只能说——yjNB，必须实装，太帅了。
-配乐——PV是老朋友The Either，质量上乘，希望音角保持优良传统。
-世界观——移动城市，源石，高墙(+)，太空(+)，传送(+)8，环带(+)（α还是ζ？），终末地工业(+)，天使(+)，侵蚀(+)（满满的死亡搁浅味），塔卫二(+)（感觉是泰拉两个月亮中的一个），伤口自动愈合(+)（PV结尾）。至于人设，希望yj保持明日方舟的水平。
-补充：首发预告四国语言，看来yj是想对标原神。
-但联想到上次看预告这么激动的还是战地2042，我忽然冷静下来，还是静静看yj的操作吧。希望慢工出细活，只要质量过关，运营别太阴间，肯定是要支持的；假如质量上乘，人设讨喜，我直接充爆好吧。
-  当时我还在想RTS怎么卖人设&amp;#160;&amp;#x21a9;&amp;#xfe0e;
- 优化任务繁重，试看未来画质和实机演示相差几个数量级。不过原生PC支持好耶！&amp;#160;&amp;#x21a9;&amp;#xfe0e;
- 话说云母、yj的新作咋全是3D？&amp;#160;&amp;#x21a9;&amp;#xfe0e;
- 泪目！守住了，初心部分守住了啊！&amp;#160;&amp;#x21a9;&amp;#xfe0e;
- 少前2的战棋也算一种sRPG？&amp;#160;&amp;#x21a9;&amp;#xfe0e;
- 那可是真是带 制 作&amp;#160;&amp;#x21a9;&amp;#xfe0e;
- 但少前二建模真不戳&amp;#160;&amp;#x21a9;&amp;#xfe0e;
- 建议改为地 狱 伞 兵&amp;#160;&amp;#x21a9;&amp;#xfe0e;
-   </description>
+      <description>看了pv：woc，好家伙，一股卡拉克沙漠的味道，RTS[^4]？有勇气，yj——NB！(p≧w≦q)
+看了实机：一个没有战斗的实机[^1]？开放世界？动作？这不画饼么？🤔[^3]
+看了官方介绍：即时战略RPG？[^2]
+ 具体详见我的瞎猜博客。</description>
     </item>
     
     <item>
@@ -132,9 +117,11 @@ UI方面，只能说——yjNB，必须实装，太帅了。
       <pubDate>Mon, 14 Mar 2022 11:33:23 +0800</pubDate>
       
       <guid>/moments/coding2/</guid>
-      <description>我首先用了以下方法：
-NSWindow *cocoa_window = (NSWindow*)window.getSystemHandle() ; GLint opaque = 0; [cocoa_window setStyleMask:NSWindowStyleMaskBorderless]; [cocoa_window setLevel: NSFloatingWindowLevel]; [[[cocoa_window contentView] openGLContext] setValues:&amp;amp;opaque forParameter:NSOpenGLContextParameterSurfaceOpacity]; [cocoa_window setBackgroundColor:[NSColor clearColor]]; [cocoa_window setOpaque:NO]; 鼠标不能穿过透明部分，读 Apple 的文档试了 1h 后没有任何改变。不得不跑到 Stack Overflow 问出了人生中第一个问题。
-根据我的经验，应该没有人会回答，😞。</description>
+      <description>制作德狗桌宠的时候需要在Mac上得到一个透明窗口，MJ首先用了以下方法：
+NSWindow *cocoa_window = (NSWindow*)window.getSystemHandle() ; GLint opaque = 0; [cocoa_window setStyleMask:NSWindowStyleMaskBorderless]; [cocoa_window setLevel: NSFloatingWindowLevel]; [[[cocoa_window contentView] openGLContext] setValues:&amp;amp;opaque forParameter:NSOpenGLContextParameterSurfaceOpacity]; [cocoa_window setBackgroundColor:[NSColor clearColor]]; [cocoa_window setOpaque:NO]; 但鼠标不能穿过透明部分，读 Apple 的文档试了 1h 后没有任何改善。不得不跑到 Stack Overflow 问出了人生中第一个问题。
+根据我的经验，应该没有人会回答，😞。
+ 补充：果然没人回答（然而在 Chemistry StacOverflow 上的问题被秒回了，还得到了极好的文献）
+最后的方法是直接放弃让WindowManager处理所有鼠标事件，让 SFML 检测鼠标按下的位置后人工判定是否戳中德狗（笨）。</description>
     </item>
     
     <item>
@@ -257,6 +244,18 @@ if _, ok := d.source.reader.(io.Seeker); !ok { return nil } 我们不得不先�
       
       <guid>/moments/2021-09-10142642/</guid>
       <description>很可怕吗？是的，很可怕</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/moments/ark0/</link>
+      <pubDate>Sat, 28 Aug 2021 14:04:44 +0800</pubDate>
+      
+      <guid>/moments/ark0/</guid>
+      <description>其实吧，这次夏活的节奏主要原因，对我来说是把陈草草异格了1，陈sir是舟游中出德克萨斯外第二戳我的角色，我不是很能接受她放弃史诗武器换把水枪实力直接飙升幻神级别这种搞笑设定2。同时，意料之外的限定眼中打乱非重氪玩家的攒抽节奏，生草的立绘3成为压倒大家的最后一根稻草。
+  强是很强，我敢肯定是危机合约指定群攻&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+ &amp;#160;&amp;#x21a9;&amp;#xfe0e; 平心而论，唯的画功是很强的，特别是色彩的搭配，但画画越来越草率，好不容易换个姿势顶胯的水陈又崩坏了。&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+   </description>
     </item>
     
     <item>
