@@ -11,4 +11,7 @@ paginatePath = '.'
 
     name = "Edward Kerman"
     avatar = "/img/default_avatar.png"
-
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
