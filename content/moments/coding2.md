@@ -52,6 +52,6 @@ GLint opaque = 0;
 
 ---
 
-补充：果然没人回答（然而在 Chemistry StacOverflow 上的问题被秒回了，还得到了极好的文献）
+补充：果然没人回答（然而在Chemistry StackOverflow上的问题被秒回了，还得到了极好的文献）
 
 最后的方法是直接放弃让WindowManager处理所有鼠标事件，让 SFML 检测鼠标按下的位置后人工判定是否戳中德狗（笨）。

@@ -33,10 +33,16 @@ link_logo:
 note:
 ---
 
-好厉害，测试**所有**东东🤔
+好厉害，测试**数学**公式🤔
 
 $$
 \l{\f{U}{V}}_{p,T}
 $$
 
-## 标题也可以
+---
+
+补充，测试个大的：
+
+$$
+\align{\f{^2\psi}{x^2}=&\f {\left(\f \psi r \cos\phi-\f \psi \phi\frac{\sin\phi}r\right)} r \cos\phi-\f {\left(\f \psi r \cos\phi-\f \psi \phi\frac{\sin\phi}r\right)} \phi\frac{\sin\phi}r \\\\ =&\left(\f{^2\psi}{r^2}\cos\phi-\f{^2\psi}{\phi\partial r}\frac{\sin\phi}r+\f{\psi}{\phi}\frac{\sin\phi}{r^2}\right)\cos\phi\\\\&-\left(\f{^2\psi}{r\partial\phi}\cos\phi-\f\psi r\sin\phi-\f{^2\psi}{\phi^2}\frac{\sin \phi}{r}-\f{\psi}{\phi}\frac{\cos\phi}{r^2}\right)\frac{\sin\phi}r\\\\=&\f{^2\psi}{r^2}\cos^2\phi-\f{^2\psi}{r\partial\phi}\frac{2\sin\phi\cos\phi}{r}+\f{^2\psi}{\phi^2}\frac{\sin^2\phi}{r^2}+\f\psi r\frac{\sin^2\phi}{r}+\f\psi\phi\frac{2\sin\phi\cos\phi}{r^2}}
+$$

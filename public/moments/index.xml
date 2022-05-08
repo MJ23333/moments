@@ -105,9 +105,9 @@
       <pubDate>Fri, 18 Mar 2022 11:10:08 +0800</pubDate>
       
       <guid>/moments/endfield1/</guid>
-      <description>看了pv：woc，好家伙，一股卡拉克沙漠的味道，RTS[^4]？有勇气，yj——NB！(p≧w≦q)
-看了实机：一个没有战斗的实机[^1]？开放世界？动作？这不画饼么？🤔[^3]
-看了官方介绍：即时战略RPG？[^2]
+      <description>看了pv：woc，好家伙，一股卡拉克沙漠的味道，RTS？有勇气，yj——NB！(p≧w≦q)
+看了实机：一个没有战斗的实机？开放世界？动作？这不画饼么？🤔
+看了官方介绍：即时战略RPG？
  具体详见我的瞎猜博客。</description>
     </item>
     
@@ -120,7 +120,7 @@
       <description>制作德狗桌宠的时候需要在Mac上得到一个透明窗口，MJ首先用了以下方法：
 NSWindow *cocoa_window = (NSWindow*)window.getSystemHandle() ; GLint opaque = 0; [cocoa_window setStyleMask:NSWindowStyleMaskBorderless]; [cocoa_window setLevel: NSFloatingWindowLevel]; [[[cocoa_window contentView] openGLContext] setValues:&amp;amp;opaque forParameter:NSOpenGLContextParameterSurfaceOpacity]; [cocoa_window setBackgroundColor:[NSColor clearColor]]; [cocoa_window setOpaque:NO]; 但鼠标不能穿过透明部分，读 Apple 的文档试了 1h 后没有任何改善。不得不跑到 Stack Overflow 问出了人生中第一个问题。
 根据我的经验，应该没有人会回答，😞。
- 补充：果然没人回答（然而在 Chemistry StacOverflow 上的问题被秒回了，还得到了极好的文献）
+ 补充：果然没人回答（然而在Chemistry StackOverflow上的问题被秒回了，还得到了极好的文献）
 最后的方法是直接放弃让WindowManager处理所有鼠标事件，让 SFML 检测鼠标按下的位置后人工判定是否戳中德狗（笨）。</description>
     </item>
     
@@ -625,9 +625,10 @@ if _, ok := d.source.reader.(io.Seeker); !ok { return nil } 我们不得不先�
       <pubDate>Thu, 09 Jan 2020 14:12:11 +0800</pubDate>
       
       <guid>/moments/firstpost/</guid>
-      <description>好厉害，测试所有东东🤔
+      <description>好厉害，测试数学公式🤔
 $$ \l{\f{U}{V}}_{p,T} $$
-标题也可以 </description>
+ 补充，测试个大的：
+$$ \align{\f{^2\psi}{x^2}=&amp;amp;\f {\left(\f \psi r \cos\phi-\f \psi \phi\frac{\sin\phi}r\right)} r \cos\phi-\f {\left(\f \psi r \cos\phi-\f \psi \phi\frac{\sin\phi}r\right)} \phi\frac{\sin\phi}r \\ =&amp;amp;\left(\f{^2\psi}{r^2}\cos\phi-\f{^2\psi}{\phi\partial r}\frac{\sin\phi}r+\f{\psi}{\phi}\frac{\sin\phi}{r^2}\right)\cos\phi\\&amp;amp;-\left(\f{^2\psi}{r\partial\phi}\cos\phi-\f\psi r\sin\phi-\f{^2\psi}{\phi^2}\frac{\sin \phi}{r}-\f{\psi}{\phi}\frac{\cos\phi}{r^2}\right)\frac{\sin\phi}r\\=&amp;amp;\f{^2\psi}{r^2}\cos^2\phi-\f{^2\psi}{r\partial\phi}\frac{2\sin\phi\cos\phi}{r}+\f{^2\psi}{\phi^2}\frac{\sin^2\phi}{r^2}+\f\psi r\frac{\sin^2\phi}{r}+\f\psi\phi\frac{2\sin\phi\cos\phi}{r^2}} $$</description>
     </item>
     
   </channel>
