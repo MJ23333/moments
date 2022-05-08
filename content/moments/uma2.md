@@ -36,3 +36,5 @@ note:
 <!-- 下面开始写正文 -->
 
 赛马娘的配乐是真的顶，特别是游戏内的纯音乐，早日出OST🙏🏻🙏🏻🙏🏻。
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=2488179372&auto=0&height=66"></iframe>
