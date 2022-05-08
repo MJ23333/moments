@@ -36,4 +36,5 @@ note:
 <!-- 下面开始写正文 -->
 麻了，飞行棋贡献全场 $\frac45$ 的（被）击杀数，做实验还在最后一次分液的时候爆炸（物理意义），搁着锻炼心态呢？只能说——
 
-> 移液丁真，鉴定为挂壁
+<center style='font-size:1.5em!important;font-family:STKaiTi,serif!important;'>
+移液丁真，鉴定为<b>挂壁</b></center>
