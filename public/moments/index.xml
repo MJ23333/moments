@@ -144,7 +144,7 @@ if _, ok := d.source.reader.(io.Seeker); !ok { return nil } 我们不得不先�
       <pubDate>Sat, 12 Mar 2022 13:14:21 +0800</pubDate>
       
       <guid>/moments/font1/</guid>
-      <description>突发奇想，为什么没有一款将罗马字体特点用于中文的“罗马”黑体，比如OptimaCN、TrajanCN？我肝不完，只做一个DEMO1：
+      <description>突发奇想，为什么没有一款将罗马字体特点用于中文的“罗马”黑体，比如OptimaCN、TrajanCN？我肝不完，只做了一个DEMO1：
   美其名曰：概念字体&amp;#160;&amp;#x21a9;&amp;#xfe0e;
    </description>
     </item>
@@ -173,7 +173,9 @@ if _, ok := d.source.reader.(io.Seeker); !ok { return nil } 我们不得不先�
       <pubDate>Thu, 03 Feb 2022 23:10:52 +0800</pubDate>
       
       <guid>/moments/2022-02-03231052/</guid>
-      <description>PCR04爆炸般的作画让MJ久违地热血沸腾了一波。于是MJ一边慨叹榎户骏的人脉，一边打算摸点有趣的东西。可惜数位板不在手边，只能忍受鼠绘吃屎般的手感。好在最后还是搓出了久违的新春贺图 ——的线稿（上色？已经肝硬化了） 4K version： https://static01.imgkr.com/temp/3b5c325e2ff24fc187cac192b4fa9613.png ——————————————借物—————————————— 场景：H2CU阿相/Edward Kerman，Render in Blender3.0.1</description>
+      <description>PCR04爆炸般的作画让MJ久违地热血沸腾了一波。于是MJ一边慨叹榎户骏的人脉，一边打算摸点有趣的东西。可惜数位板不在手边，只能忍受鼠绘吃屎般的手感。好在最后还是搓出了久违的新春贺图 ——的线稿（上色？已经肝硬化了）
+4K version
+——————————————借物—————————————— 场景：H2CU阿相/Edward Kerman，Render in Blender3.0.1</description>
     </item>
     
     <item>
@@ -200,7 +202,8 @@ if _, ok := d.source.reader.(io.Seeker); !ok { return nil } 我们不得不先�
       <pubDate>Sat, 02 Oct 2021 18:32:23 +0800</pubDate>
       
       <guid>/moments/2021-10-02183223/</guid>
-      <description>长津湖又让我想起用巴祖卡AA的快乐 AA人，正义的英雄（赞赏）</description>
+      <description>长津湖又让我想起用巴祖卡AA的快乐
+AA人，正义的英雄（赞赏）</description>
     </item>
     
     <item>
@@ -209,7 +212,8 @@ if _, ok := d.source.reader.(io.Seeker); !ok { return nil } 我们不得不先�
       <pubDate>Tue, 21 Sep 2021 22:25:43 +0800</pubDate>
       
       <guid>/moments/2021-09-21222543/</guid>
-      <description>迟到的——中秋节快乐！ 今天的云真是多</description>
+      <description>迟到的——中秋节快乐！
+今天的云真是多</description>
     </item>
     
     <item>
@@ -276,7 +280,8 @@ if _, ok := d.source.reader.(io.Seeker); !ok { return nil } 我们不得不先�
       <pubDate>Thu, 12 Aug 2021 18:30:38 +0800</pubDate>
       
       <guid>/moments/2021-08-12183038/</guid>
-      <description>崩坏吧，世界 爆炸吧，现实</description>
+      <description>崩坏吧，世界
+爆炸吧，现实</description>
     </item>
     
     <item>
@@ -321,7 +326,8 @@ if _, ok := d.source.reader.(io.Seeker); !ok { return nil } 我们不得不先�
       <pubDate>Tue, 20 Jul 2021 20:04:54 +0800</pubDate>
       
       <guid>/moments/2021-07-20200454/</guid>
-      <description>候机厅的左边，是自由 可惜我走7号口</description>
+      <description>候机厅的左边，是自由
+可惜我走7号口</description>
     </item>
     
     <item>
@@ -339,7 +345,8 @@ if _, ok := d.source.reader.(io.Seeker); !ok { return nil } 我们不得不先�
       <pubDate>Sun, 18 Jul 2021 11:30:09 +0800</pubDate>
       
       <guid>/moments/2021-07-18113009/</guid>
-      <description>怎么那道题的分值又双叒叕上升了 woc</description>
+      <description>怎么那道题的分值又双叒叕上升了
+woc</description>
     </item>
     
     <item>
@@ -357,7 +364,11 @@ if _, ok := d.source.reader.(io.Seeker); !ok { return nil } 我们不得不先�
       <pubDate>Fri, 16 Jul 2021 20:49:40 +0800</pubDate>
       
       <guid>/moments/2021-07-16204940/</guid>
-      <description>音量全程爆表，谢谢，耳朵已经流产了 审 美 教 育！ 锦 绣 前 程！ 优 秀 的 节 目！ 我要向全世界播放这段充满希望的音频！</description>
+      <description>音量全程爆表，谢谢，耳朵已经流产了
+审 美 教 育！
+锦 绣 前 程！
+优 秀 的 节 目！
+我要向全世界播放这段充满希望的音频！</description>
     </item>
     
     <item>
@@ -366,7 +377,10 @@ if _, ok := d.source.reader.(io.Seeker); !ok { return nil } 我们不得不先�
       <pubDate>Fri, 16 Jul 2021 20:37:44 +0800</pubDate>
       
       <guid>/moments/2021-07-16203744/</guid>
-      <description>fig.1,2,4充满希望的音量(120dB+) fig.5 充满希望的音频 fig.6 充满希望的图片 P.S fig 7,8 全场最佳(对耳膜最善良)和面粉特效</description>
+      <description>fig.1,2,4充满希望的音量(120dB+)
+fig.5 充满希望的音频
+fig.6 充满希望的图片
+P.S fig 7,8 全场最佳(对耳膜最善良)和面粉特效</description>
     </item>
     
     <item>
@@ -411,7 +425,8 @@ if _, ok := d.source.reader.(io.Seeker); !ok { return nil } 我们不得不先�
       <pubDate>Sun, 27 Jun 2021 21:43:59 +0800</pubDate>
       
       <guid>/moments/2021-06-27214359/</guid>
-      <description>双 重 不 等 价 交 换 谢谢你，售货机</description>
+      <description>双 重 不 等 价 交 换
+谢谢你，售货机</description>
     </item>
     
     <item>
