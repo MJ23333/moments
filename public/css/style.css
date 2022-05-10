@@ -1,36 +1,9 @@
-
-@font-face {
-	font-family: 'Optima';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Optima'), url('OPTIMA.ttf') format('ttf');
-}
-@font-face {
-	font-family: 'Optima';
-	font-style: italic;
-	font-weight: 5;
-	src: local('Optima'), url('Optima_Italic.ttf') format('ttf');
-}
-@font-face {
-	font-family: 'Optima';
-	font-style: normal;
-	font-weight: 550;
-	src: local('Optima'), url('Optima Medium.ttf') format('ttf');
-}
-@font-face {
-	font-family: 'Optima';
-	font-style: normal;
-	font-weight: 700;
-	src: local('Optima'), url('OPTIMA_B.ttf') format('ttf');
-}
-
-
 body{
     background-color: #ffffff;
 }
 
 .pure-g [class*=pure-u]{
-    font-family: 'Optima',sans-serif !important;
+    font-family: 'Optima',"Lucida Sans Unicode", "Lucida Grande",sans-serif !important;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
@@ -53,7 +26,7 @@ p{
 
 .site-title{
     color: black;
-		font-family: 'Optima',sans-serif;
+		font-family: 'Optima',"Lucida Sans Unicode", "Lucida Grande",sans-serif;
 		font-weight: bold;
     font-size: 56px;
     margin-bottom: 20px;
@@ -61,7 +34,7 @@ p{
 
 .signature{
     color: rgb(0, 0, 0, 0.5);
-		font-family: 'Optima',sans-serif;
+		font-family: 'Optima',"Lucida Sans Unicode", "Lucida Grande",sans-serif;
     font-size: 23px;
     font-weight: 300;
 }
