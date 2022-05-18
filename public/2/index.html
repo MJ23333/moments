@@ -61,6 +61,109 @@
         
         <div class="pure-u-1 pure-u-sm-1-3">
             <div class="time">
+                <div class="month-day">Mar 14th</div>
+                <div class="year">2022</div>
+            </div>
+        </div>
+
+        
+        <div class="pure-u-1 pure-u-sm-2-3">
+            <div class="moment-content">
+                
+                
+
+                
+                <div class="user-info">
+                    <div class="avatar-block">
+                        
+                        
+                        <img src='/img/default_avatar.png' class="avatar">
+                        
+                    </div>
+                    <div class="intro">
+                        
+                        <div class="name">Edward Kerman</div>
+                        
+                        <div>
+                            
+                            
+                                
+                                    
+                                
+                                    
+                                
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 5px; padding-right: 5px;">
+                    
+                    <div class="context">
+                        <p>制作德狗桌宠的时候需要在Mac上得到一个透明窗口，MJ首先用了以下方法：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-objc" data-lang="objc">NSWindow <span style="color:#f92672">*</span>cocoa_window <span style="color:#f92672">=</span> (NSWindow<span style="color:#f92672">*</span>)window.getSystemHandle() ;
+GLint opaque <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+[cocoa_window setStyleMask:NSWindowStyleMaskBorderless];
+[cocoa_window setLevel: NSFloatingWindowLevel];
+[[[cocoa_window contentView] openGLContext] setValues:<span style="color:#f92672">&amp;</span>opaque forParameter:NSOpenGLContextParameterSurfaceOpacity];
+[cocoa_window setBackgroundColor:[NSColor clearColor]];
+[cocoa_window setOpaque:NO];
+</code></pre></div><p>但鼠标不能穿过透明部分，读 Apple 的文档试了 1h 后没有任何改善。不得不跑到 Stack Overflow 问出了人生中第一个问题。</p>
+<p>根据我的经验，应该没有人会回答，😞。</p>
+<hr>
+<p>补充：果然没人回答（然而在Chemistry StackOverflow上的问题被秒回了，还得到了极好的文献）</p>
+<p>最后的方法是直接放弃让WindowManager处理所有鼠标事件，让 SFML 检测鼠标按下的位置后人工判定是否戳中德狗（笨）。</p>
+
+                    </div>
+                    
+                    
+                    
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+                    
+                    
+                        
+                            
+                        
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+
+                    
+
+                    
+                    <div class="moment-note">
+                        <p class="note">11:33 </p>
+                        <div style="padding-right: 12px;"><i class="far fa-heart"></i></div>
+                    </div>
+                </div>
+                <hr style="clear: both">
+            </div>
+        </div>
+    </div>
+
+</div>
+        
+            <div class="moment-row">
+
+    <div class="pure-g">
+        
+        <div class="pure-u-1 pure-u-sm-1-3">
+            <div class="time">
                 <div class="month-day">Mar 13th</div>
                 <div class="year">2022</div>
             </div>
@@ -1138,137 +1241,6 @@ ISU快点抬高升组年龄啊🙏🏻🙏🏻🙏🏻</p>
                     
                     <div class="moment-note">
                         <p class="note">18:32 </p>
-                        <div style="padding-right: 12px;"><i class="far fa-heart"></i></div>
-                    </div>
-                </div>
-                <hr style="clear: both">
-            </div>
-        </div>
-    </div>
-
-</div>
-        
-            <div class="moment-row">
-
-    <div class="pure-g">
-        
-        <div class="pure-u-1 pure-u-sm-1-3">
-            <div class="time">
-                <div class="month-day">Sep 21st</div>
-                <div class="year">2021</div>
-            </div>
-        </div>
-
-        
-        <div class="pure-u-1 pure-u-sm-2-3">
-            <div class="moment-content">
-                
-                
-
-                
-                <div class="user-info">
-                    <div class="avatar-block">
-                        
-                        
-                        <img src='/img/default_avatar.png' class="avatar">
-                        
-                    </div>
-                    <div class="intro">
-                        
-                        <div class="name">Edward Kerman</div>
-                        
-                        <div>
-                            
-                            
-                                
-                                    
-                                
-                                    
-                                
-                            
-                            
-                        </div>
-                    </div>
-                </div>
-                <div style="padding-left: 5px; padding-right: 5px;">
-                    
-                    <div class="context">
-                        <p>迟到的——中秋节快乐！</p>
-<p>今天的云真是多</p>
-
-                    </div>
-                    
-                    
-                    
-                    
-
-                    
-                    
-                    
-
-                    
-
-                    
-                    
-                    
-                        
-                            
-                                
-                            
-                        
-                            
-                                
-                            
-                        
-                    
-
-                    
-
-                    
-                        
-
-
-
-    
-    
-
-<div class="pic-grid" style="width: 53%">
-    <div class="pure-g">
-        
-        <div class="pure-u-1-2">
-            <div class="add-padding">
-                <div class="img-container">
-                    <a data-src="http://photogz.photo.store.qq.com/psc?/V13sXDHr2kCztK/05RlWl8gsTOH*Z17MtCBzG4uUTELDQ*3gDjgvq5BWMDwpYyNMQaGDCM*7OV5sXc5yO.aXXG.gbyNvbLIzi18XQ!!/b&amp;bo=1wRcA9cEXAMRADc!" data-fancybox="gallery">
-                        <img src="http://photogz.photo.store.qq.com/psc?/V13sXDHr2kCztK/05RlWl8gsTOH*Z17MtCBzG4uUTELDQ*3gDjgvq5BWMDwpYyNMQaGDCM*7OV5sXc5yO.aXXG.gbyNvbLIzi18XQ!!/b&amp;bo=1wRcA9cEXAMRADc!" alt="pictures"/>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="pure-u-1-2">
-            <div class="add-padding">
-                <div class="img-container">
-                    <a data-src="http://photogz.photo.store.qq.com/psc?/V13sXDHr2kCztK/05RlWl8gsTOH*Z17MtCBzLiYEx9Wv.IkwOebwZLrpsbm7IETnfDlcGiS1gwd0KYM4dgMP3nTsj9ktSpUhhaO9A!!/b&amp;bo=OARdBDgEXQQRADc!" data-fancybox="gallery">
-                        <img src="http://photogz.photo.store.qq.com/psc?/V13sXDHr2kCztK/05RlWl8gsTOH*Z17MtCBzLiYEx9Wv.IkwOebwZLrpsbm7IETnfDlcGiS1gwd0KYM4dgMP3nTsj9ktSpUhhaO9A!!/b&amp;bo=OARdBDgEXQQRADc!" alt="pictures"/>
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-</div>
-                    
-
-                    
-                    
-                    
-                    
-
-                    
-
-                    
-                    <div class="moment-note">
-                        <p class="note">22:25 </p>
                         <div style="padding-right: 12px;"><i class="far fa-heart"></i></div>
                     </div>
                 </div>
