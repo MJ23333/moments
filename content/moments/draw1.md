@@ -25,7 +25,7 @@ pictures:
 # link：必填，网页链接；
 # link_text：必填，链接显示的文字；
 # link_logo：选填，网页logo，现在支持部分网站自动找到对应图标，无需自己添加图标
-link: https://mobile.twitter.com/lidukelaya/status/1526448905952473093/photo/1
+link:
 link_text:
 link_logo:
 
@@ -39,3 +39,4 @@ note:
 > 卢浮宫烧起来了，有人问我先救蒙娜丽莎还是先救猫，我摇摇头，挂上日子老师的画，大火瞬间被浇灭了，那是大伙留下的口水🤤
 
 更清晰的图请上日子老师的推特：
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/aWEmv9CrNm">pic.twitter.com/aWEmv9CrNm</a></p>&mdash; liduke(日子) (@lidukelaya) <a href="https://twitter.com/lidukelaya/status/1526448905952473093?ref_src=twsrc%5Etfw">May 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
