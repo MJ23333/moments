@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class='han-la'>
     <head>
         <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,16 +26,7 @@
 <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
 <link rel="stylesheet"
       href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.0/build/styles/default.min.css">
-			<script src="https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
-			<script>
-				
-				
-				pangu.spacingElementByTagName('p');
-				document.addEventListener('DOMContentLoaded', () => {
-					
-					pangu.autoSpacingPage();
-				});
-			</script>
+			<script src="https://cdn.jsdelivr.net/gh/mastermay/text-autospace.js/text-autospace.min.js"></script>
 <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.0/build/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
 
@@ -1102,13 +1093,13 @@
             <div class="footer">
 Powered by <a href="https://www.hugo.io">Hugo</a> | Theme <a href="https://github.com/FarseaSH/hugo-theme-moments">Moments</a>
 </div>
-<script type="text/x-mathjax-config">
+{# <script type="text/x-mathjax-config">
 	MathJax.Hub.Config({
 		extensions: ["tex2jax.js"],
 		jax: ["input/TeX", "output/HTML-CSS"],
-		TeX: {
+		teX: {
 			extensions: ["mhchem.js"],
-			Macros: {
+			macros: {
 					d: "{\\mathrm d}",
 					p: "{\\mathrm p}",
 					pKa: "{\\mathrm{p}K_{a}}",
@@ -1151,9 +1142,59 @@ Powered by <a href="https://www.hugo.io">Hugo</a> | Theme <a href="https://githu
 		"HTML-CSS": { linebreaks: { automatic: true },fonts: ["Gyre-Pagella"] },
 		 SVG: { linebreaks: { automatic: true } }
 	});
+</script> #}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css" integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js" integrity="sha384-Qsn9KnoKISj6dI8g7p1HBlNpVx0I8p1SvlwOldgi3IorMle61nQy4zEahWYtljaz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false,
+					macros:{
+						'\\d': "{\\mathrm d}",
+					'\\p': "{\\mathrm p}",
+					'\\pKa': "{\\mathrm{p}K_{a}}",
+					'\\Ka': "{K_{a}}",
+					'\\pH': "{\\mathrm{pH}}",
+					'\\H': "{\\left\[\\ce{H+}\\right\]}",
+					'\\c': ["{\\left\[\\ce{ #1}\\right\]}",1],
+					'\\B': "{\\mathrm B}",
+					'\\A': "{\\mathrm A}",
+					'\\C': "{\\mathrm C}",
+					'\\r': "{\\mathrm r}",
+					'\\a': "{\\mathrm a}",
+					'\\m': "{\\mathrm m}",
+					'\\D': "{\\Delta}",
+					'\\o': "{\\ominus}",
+					'\\Ek': "{E_{\\mathrm k}}",
+					'\\Ep': "{E_{\\mathrm p}}",
+					'\\K': "{\\space\\mathrm K}",
+					'\\J': "{\\space\\mathrm J}",
+					'\\kJ': "{\\space\\mathrm {kJ}}",
+					'\\eV': "{\\space\\mathrm {eV}}",
+					'\\mol': "{\\space\\mathrm {mol}}",
+					'\\kjm': "{\\space\\mathrm {kJ}\\cdot\\mathrm {mol}^{-1}}",
+					'\\align': "{\\begin{align*} #1 \\end{align*}}",
+					'\\f': "{\\frac{\\partial  #1}{\\partial  #2}}",
+					'\\l': "{\\left( #1\\right)}",
+					'\\lf': "{\\left(\\frac{\\partial  #1}{\\partial  #2}\\right)}",
+					'\\red': "{\\color{red}{ #1}}",
+					'\\green': "{\\color{green}{ #1}}",
+					'\\blue': "{\\color{blue}{ #1}}",
+					'\\bm': "{\\boldsymbol{ #1}}",
+					}
+        });
+    });
 </script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
-
         </div>
 
         

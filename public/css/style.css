@@ -38,7 +38,24 @@ p{
     font-size: 23px;
     font-weight: 300;
 }
+html.han-la hanla:after {
+	content: " ";
+	display: inline;
+	font-family: Arial;
+	font-size: 0.89em;
+}
 
+html.han-la code hanla,
+html.han-la pre hanla,
+html.han-la kbd hanla,
+html.han-la samp hanla {
+	display: none;
+}
+
+html.han-la ol > hanla,
+html.han-la ul > hanla {
+	display: none;
+}
 /* END - top cover part */
 
 /* START - pagination */
@@ -46,7 +63,7 @@ p{
     display: flex;
     justify-content: center;
 }
-
+.katex { font-size: 1em; }
 .pagination{
     display: flex;
     margin-top: 20px;
