@@ -44,7 +44,13 @@ html.han-la hanla:after {
 	font-family: Arial;
 	font-size: 0.89em;
 }
-
+.katex-display > .katex {
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow-x: visible;
+  text-align: initial;
+}
 html.han-la code hanla,
 html.han-la pre hanla,
 html.han-la kbd hanla,
