@@ -48,7 +48,7 @@ html.han-la hanla:after {
   display: inline-block;
   white-space: nowrap;
   max-width: 100%;
-  overflow-x: visible;
+  overflow-x: scroll;
   text-align: initial;
 }
 html.han-la code hanla,
