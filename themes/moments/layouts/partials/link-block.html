@@ -1,0 +1,19 @@
+
+
+<div class="share-link-block">
+    <table class="link-table">
+    <tr>
+        <td>
+            {{ $baseurl := .baseurl}}
+            {{ with .logo }}
+            <img src="{{ . }}" class="link-logo">
+            {{ else }}
+						<img src="https://api.iowen.cn/favicon/get.php?url={{ .a }}" class="link-logo">
+            {{ end }}
+        </td>
+        <td style="padding-left: 20px">
+            <a href="{{ .a }}">{{.word}}</a>
+        </td>
+    </tr>
+    </table>
+</div>
